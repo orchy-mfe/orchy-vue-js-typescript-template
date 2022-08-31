@@ -11,5 +11,8 @@
     "@vue/eslint-config-typescript"
   ],
   "plugins": [],
-  "rules": {}
+  "rules": {
+    "no-unused-vars": "error",
+    "vue/no-unused-vars": "error"
+  }
 }
