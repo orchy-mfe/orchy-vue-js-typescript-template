@@ -17,7 +17,7 @@ specifiers:
   typescript: ^4.8.2
   vite: ^3.0.9
   vite-plugin-qiankun: ^1.0.15
-  vite-svg-loader: ^3.5.0
+  vite-svg-loader: ^3.5.1
   vitest: ^0.22.1
   vue: ^3.2.38
   vue-eslint-parser: ^9.0.3
@@ -43,7 +43,7 @@ devDependencies:
   typescript: 4.8.2
   vite: 3.0.9
   vite-plugin-qiankun: 1.0.15_dl5nou5ldq7zlftzutsw4wm3t4
-  vite-svg-loader: 3.5.0
+  vite-svg-loader: 3.5.1
   vitest: 0.22.1_happy-dom@6.0.4
   vue-eslint-parser: 9.0.3_eslint@8.23.0
   vue-tsc: 0.40.5_typescript@4.8.2
@@ -5876,7 +5876,7 @@ packages:
     dev: true
 
   /utils-merge/1.0.1:
-    resolution: {integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=}
+    resolution: {integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==}
     engines: {node: '>= 0.4.0'}
     dev: true
 
@@ -5908,8 +5908,8 @@ packages:
       vite: 3.0.9
     dev: true
 
-  /vite-svg-loader/3.5.0:
-    resolution: {integrity: sha512-lFIA9YBMM24szNn5Gjk3d7f7dsfMcp/1Gmto7MCxdc0oCMJzjQZraDj1l0Ay/SRq2p6N1E069D1imwgXo0Zd3A==}
+  /vite-svg-loader/3.5.1:
+    resolution: {integrity: sha512-zGAq7qQEh21bWDIuJUwl2t9Vmr4iH7PLqKM1yqS30BjjkLilSYuOokn6wa+Rg/M8m8k1XnQowuj3zRrZq9rYMg==}
     dependencies:
       '@vue/compiler-sfc': 3.2.38
       svgo: 2.8.0
