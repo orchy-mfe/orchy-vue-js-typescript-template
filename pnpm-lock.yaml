@@ -13,7 +13,7 @@ specifiers:
   eslint-plugin-prettier: ^4.2.1
   eslint-plugin-vue: ^9.4.0
   happy-dom: ^6.0.4
-  rollup-plugin-visualizer: ^5.8.0
+  rollup-plugin-visualizer: ^5.8.1
   typescript: ^4.8.2
   vite: ^3.0.9
   vite-plugin-qiankun: ^1.0.15
@@ -39,7 +39,7 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_tgumt6uwl2md3n6uqnggd6wvce
   eslint-plugin-vue: 9.4.0_eslint@8.23.0
   happy-dom: 6.0.4
-  rollup-plugin-visualizer: 5.8.0_rollup@2.79.0
+  rollup-plugin-visualizer: 5.8.1
   typescript: 4.8.2
   vite: 3.0.9
   vite-plugin-qiankun: 1.0.15_dl5nou5ldq7zlftzutsw4wm3t4
@@ -5197,30 +5197,24 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-visualizer/5.8.0_rollup@2.79.0:
-    resolution: {integrity: sha512-pY6j/7qHz5I9rB7d/bQoA5gX+2FbV3MBG055wrsFxDn550bgl0FNViRj6wDHh85PMswv+JVdZjhnMBzz/hdAHA==}
+  /rollup-plugin-visualizer/5.8.1:
+    resolution: {integrity: sha512-NBT/xN/LWCwDM2/j5vYmjzpEAKHyclo/8Cv8AfTCwgADAG+tLJDy1vzxMw6NO0dSDjmTeRELD9UU3FwknLv0GQ==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
       rollup: ^2.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
     dependencies:
       nanoid: 3.3.4
       open: 8.4.0
-      rollup: 2.79.0
       source-map: 0.7.4
       yargs: 17.5.1
     dev: true
 
   /rollup/2.77.3:
     resolution: {integrity: sha512-/qxNTG7FbmefJWoeeYJFbHehJ2HNWnjkAFRKzWN/45eNBBF/r8lo992CwcJXEzyVxs5FmfId+vTSTQDb+bxA+g==}
-    engines: {node: '>=10.0.0'}
-    hasBin: true
-    optionalDependencies:
-      fsevents: 2.3.2
-    dev: true
-
-  /rollup/2.79.0:
-    resolution: {integrity: sha512-x4KsrCgwQ7ZJPcFA/SUu6QVcYlO7uRLfLAy0DSA4NS2eG8japdbpM50ToH7z4iObodRYOJ0soneF0iaQRJ6zhA==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
