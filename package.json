@@ -33,6 +33,6 @@
     "vite-svg-loader": "^3.5.1",
     "vitest": "^0.23.1",
     "vue-eslint-parser": "^9.0.3",
-    "vue-tsc": "^0.40.6"
+    "vue-tsc": "^0.40.13"
   }
 }
