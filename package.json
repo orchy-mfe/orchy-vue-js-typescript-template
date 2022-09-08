@@ -15,8 +15,8 @@
   },
   "devDependencies": {
     "@testing-library/vue": "^6.6.1",
-    "@typescript-eslint/eslint-plugin": "^5.36.1",
-    "@typescript-eslint/parser": "^5.36.1",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
     "@vitejs/plugin-vue": "^3.0.3",
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/eslint-config-prettier": "^7.0.0",
