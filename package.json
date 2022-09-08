@@ -20,7 +20,7 @@
     "@vitejs/plugin-vue": "^3.0.3",
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/eslint-config-prettier": "^7.0.0",
-    "@vue/eslint-config-typescript": "^11.0.0",
+    "@vue/eslint-config-typescript": "^11.0.1",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
