@@ -11,7 +11,7 @@ specifiers:
   eslint: ^8.23.1
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.2.1
-  eslint-plugin-vue: ^9.4.0
+  eslint-plugin-vue: ^9.5.0
   happy-dom: ^6.0.4
   rollup-plugin-visualizer: ^5.8.1
   typescript: ^4.8.3
@@ -33,11 +33,11 @@ devDependencies:
   '@vitejs/plugin-vue': 3.1.0_vite@3.1.1+vue@3.2.39
   '@vue/cli-plugin-eslint': 5.0.8_bfmjts6csf3uex3orbhehga7i4
   '@vue/eslint-config-prettier': 7.0.0_lpvhfrfofky3e6gkwtrv5gvhfa
-  '@vue/eslint-config-typescript': 11.0.1_lt74cxsrofekofa4xcjvnzkbqy
+  '@vue/eslint-config-typescript': 11.0.1_z4yhgnltyct2bqrbcdjd4x7ldu
   eslint: 8.23.1
   eslint-config-prettier: 8.5.0_eslint@8.23.1
   eslint-plugin-prettier: 4.2.1_cabrci5exjdaojcvd6xoxgeowu
-  eslint-plugin-vue: 9.4.0_eslint@8.23.1
+  eslint-plugin-vue: 9.5.0_eslint@8.23.1
   happy-dom: 6.0.4
   rollup-plugin-visualizer: 5.8.1
   typescript: 4.8.3
@@ -1185,7 +1185,7 @@ packages:
       prettier: 2.7.1
     dev: true
 
-  /@vue/eslint-config-typescript/11.0.1_lt74cxsrofekofa4xcjvnzkbqy:
+  /@vue/eslint-config-typescript/11.0.1_z4yhgnltyct2bqrbcdjd4x7ldu:
     resolution: {integrity: sha512-0U+nL0nA7ahnGPk3rTN49x76miUwuQtQPQNWOFvAcjg6nFJkIkA8qbGNtXwsuHtwBwRtWpHhShL3zK07v+632w==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1199,7 +1199,7 @@ packages:
       '@typescript-eslint/eslint-plugin': 5.37.0_22c5fnooleyfkzrkkgdmel5kmi
       '@typescript-eslint/parser': 5.37.0_irgkl5vooow2ydyo6aokmferha
       eslint: 8.23.1
-      eslint-plugin-vue: 9.4.0_eslint@8.23.1
+      eslint-plugin-vue: 9.5.0_eslint@8.23.1
       typescript: 4.8.3
       vue-eslint-parser: 9.1.0_eslint@8.23.1
     transitivePeerDependencies:
@@ -2934,8 +2934,8 @@ packages:
       prettier-linter-helpers: 1.0.0
     dev: true
 
-  /eslint-plugin-vue/9.4.0_eslint@8.23.1:
-    resolution: {integrity: sha512-Nzz2QIJ8FG+rtJaqT/7/ru5ie2XgT9KCudkbN0y3uFYhQ41nuHEaboLAiqwMcK006hZPQv/rVMRhUIwEGhIvfQ==}
+  /eslint-plugin-vue/9.5.0_eslint@8.23.1:
+    resolution: {integrity: sha512-Dm4KJRD6yFZGy6OhtgcG35oMR9rAhGfP6vbANw2k5wvQn9YjKu9huRV3Y63pYUbqPTHJ3V4v5+EcGmJSSjWgSA==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
