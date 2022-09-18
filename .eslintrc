@@ -13,6 +13,10 @@
   "plugins": [],
   "rules": {
     "no-unused-vars": "error",
-    "vue/no-unused-vars": "error"
+    "vue/no-unused-vars": "error",
+    "quote-props": [
+      "error",
+      "as-needed"
+    ]
   }
 }
