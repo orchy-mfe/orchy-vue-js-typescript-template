@@ -4,19 +4,26 @@ import {
   qiankunWindow,
   QiankunProps,
 } from "vite-plugin-qiankun/dist/helper";
+import { createRouter, createWebHistory } from "vue-router";
 import "./style.css";
 import AppVue from "./App.vue";
 
-let root: App<Element> | undefined = undefined;
+let app: App<Element> | undefined = undefined;
 
 const rootSelector = "#app";
 
-const render = ({ container }: QiankunProps) => {
-  root = createApp(AppVue);
-  root.mount(
-    container
-      ? (container.querySelector(rootSelector) as HTMLElement)
-      : rootSelector
+const createAppRouter = (props: QiankunProps) =>
+  createRouter({
+    history: createWebHistory(props.baseUrl),
+    routes: [],
+  });
+
+const render = (props: QiankunProps) => {
+  app = createApp(AppVue);
+  app.use(createAppRouter(props));
+  app.mount(
+    (props.container?.querySelector(rootSelector) as HTMLElement) ||
+      rootSelector
   );
 };
 
@@ -28,9 +35,9 @@ renderWithQiankun({
     console.log("bootstrap");
   },
   unmount() {
-    root?.unmount();
-    if (root?._container) root._container.innerHTML = "";
-    root = undefined;
+    app?.unmount();
+    if (app?._container) app._container.innerHTML = "";
+    app = undefined;
   },
   update() {
     console.log("bootstrap");

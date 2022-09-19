@@ -11,7 +11,8 @@
     "lint": "eslint ./src --ext .ts,.vue"
   },
   "dependencies": {
-    "vue": "^3.2.39"
+    "vue": "^3.2.39",
+    "vue-router": "^4.1.5"
   },
   "devDependencies": {
     "@testing-library/vue": "^6.6.1",
