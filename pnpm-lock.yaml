@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@orchy-mfe/models': ^0.0.1
   '@testing-library/vue': ^6.6.1
   '@typescript-eslint/eslint-plugin': ^5.38.0
   '@typescript-eslint/parser': ^5.38.0
@@ -29,6 +30,7 @@ dependencies:
   vue-router: 4.1.5_vue@3.2.39
 
 devDependencies:
+  '@orchy-mfe/models': 0.0.1
   '@testing-library/vue': 6.6.1_3kiqpmk3xkgoxowr6hhpssvdyy
   '@typescript-eslint/eslint-plugin': 5.38.0_wsb62dxj2oqwgas4kadjymcmry
   '@typescript-eslint/parser': 5.38.0_irgkl5vooow2ydyo6aokmferha
@@ -400,6 +402,13 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+    dev: true
+
+  /@orchy-mfe/models/0.0.1:
+    resolution: {integrity: sha512-tYL6IJQZaN2Q5f7B8CVbKSK/pymia8emdsDVT5iZ2BG+aGabGQgQFpQt5ihyOs6GoEw3tF5oOw8oj4+vlRarlQ==}
+    engines: {node: '>=v16.17.0'}
+    dependencies:
+      rxjs: 7.5.6
     dev: true
 
   /@polka/url/1.0.0-next.21:
@@ -5278,6 +5287,12 @@ packages:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
     dependencies:
       queue-microtask: 1.2.3
+    dev: true
+
+  /rxjs/7.5.6:
+    resolution: {integrity: sha512-dnyv2/YsXhnm461G+R/Pe5bWP41Nm6LBXEYWI6eiFP4fiwx6WRI/CD0zbdVAudd9xwLEF2IDcKXLHit0FYjUzw==}
+    dependencies:
+      tslib: 2.4.0
     dev: true
 
   /safe-buffer/5.1.2:

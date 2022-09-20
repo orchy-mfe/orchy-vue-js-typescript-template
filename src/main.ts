@@ -12,17 +12,17 @@ let app: App<Element> | undefined = undefined;
 
 const rootSelector = "#app";
 
-const createAppRouter = (props: QiankunProps) =>
+const createAppRouter = (props?: QiankunProps) =>
   createRouter({
-    history: createWebHistory(props.baseUrl),
+    history: createWebHistory(props?.baseUrl),
     routes: [],
   });
 
-const render = (props: QiankunProps) => {
+const render = (props?: QiankunProps) => {
   app = createApp(AppVue);
   app.use(createAppRouter(props));
   app.mount(
-    (props.container?.querySelector(rootSelector) as HTMLElement) ||
+    (props?.container?.querySelector(rootSelector) as HTMLElement) ||
       rootSelector
   );
 };
@@ -45,5 +45,5 @@ renderWithQiankun({
 });
 
 if (!qiankunWindow.__POWERED_BY_QIANKUN__) {
-  render({});
+  render();
 }
