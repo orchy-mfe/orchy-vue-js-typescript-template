@@ -15,6 +15,7 @@ specifiers:
   eslint-plugin-vue: ^9.6.0
   happy-dom: ^7.4.0
   rollup-plugin-visualizer: ^5.8.2
+  rxjs: ^7.5.7
   typescript: ^4.8.4
   vite: ^3.1.6
   vite-plugin-qiankun: ^1.0.15
@@ -26,6 +27,7 @@ specifiers:
   vue-tsc: ^0.40.13
 
 dependencies:
+  rxjs: 7.5.7
   vue: 3.2.40
   vue-router: 4.1.5_vue@3.2.40
 
@@ -413,7 +415,7 @@ packages:
     resolution: {integrity: sha512-tYL6IJQZaN2Q5f7B8CVbKSK/pymia8emdsDVT5iZ2BG+aGabGQgQFpQt5ihyOs6GoEw3tF5oOw8oj4+vlRarlQ==}
     engines: {node: '>=v16.17.0'}
     dependencies:
-      rxjs: 7.5.6
+      rxjs: 7.5.7
     dev: true
 
   /@polka/url/1.0.0-next.21:
@@ -5293,11 +5295,10 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
-  /rxjs/7.5.6:
-    resolution: {integrity: sha512-dnyv2/YsXhnm461G+R/Pe5bWP41Nm6LBXEYWI6eiFP4fiwx6WRI/CD0zbdVAudd9xwLEF2IDcKXLHit0FYjUzw==}
+  /rxjs/7.5.7:
+    resolution: {integrity: sha512-z9MzKh/UcOqB3i20H6rtrlaE/CgjLOvheWK/9ILrbhROGTweAi1BaFsTT9FbwZi5Trr1qNRs+MXkhmR06awzQA==}
     dependencies:
       tslib: 2.4.0
-    dev: true
 
   /safe-buffer/5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
@@ -5859,7 +5860,6 @@ packages:
 
   /tslib/2.4.0:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
-    dev: true
 
   /tsutils/3.21.0_typescript@4.8.4:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
