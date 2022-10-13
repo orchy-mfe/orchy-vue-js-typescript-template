@@ -17,7 +17,7 @@ specifiers:
   rollup-plugin-visualizer: ^5.8.2
   rxjs: ^7.5.7
   typescript: ^4.8.4
-  vite: ^3.1.7
+  vite: ^3.1.8
   vite-plugin-qiankun: ^1.0.15
   vite-svg-loader: ^3.6.0
   vitest: ^0.24.1
@@ -36,7 +36,7 @@ devDependencies:
   '@testing-library/vue': 6.6.1_s5ljmfbyjcorxzsah2scwznsai
   '@typescript-eslint/eslint-plugin': 5.40.0_25sstg4uu2sk4pm7xcyzuov7xq
   '@typescript-eslint/parser': 5.40.0_z4bbprzjrhnsfa24uvmcbu7f5q
-  '@vitejs/plugin-vue': 3.1.2_vite@3.1.7+vue@3.2.40
+  '@vitejs/plugin-vue': 3.1.2_vite@3.1.8+vue@3.2.40
   '@vue/cli-plugin-eslint': 5.0.8_3fnpat3tp544s3tv34p46prmlu
   '@vue/eslint-config-prettier': 7.0.0_znq2sm4m5bonjw4qqm6mwhbe2q
   '@vue/eslint-config-typescript': 11.0.2_qsmcthc5ijamuzfurbvbpwqwnm
@@ -47,8 +47,8 @@ devDependencies:
   happy-dom: 7.5.10
   rollup-plugin-visualizer: 5.8.2
   typescript: 4.8.4
-  vite: 3.1.7
-  vite-plugin-qiankun: 1.0.15_pyo5n34mr7w32wfqve3utffvk4
+  vite: 3.1.8
+  vite-plugin-qiankun: 1.0.15_o3sppntgta7qijzxyjjxfsiapy
   vite-svg-loader: 3.6.0
   vitest: 0.24.1_happy-dom@7.5.10
   vue-eslint-parser: 9.1.0_eslint@8.25.0
@@ -783,14 +783,14 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-vue/3.1.2_vite@3.1.7+vue@3.2.40:
+  /@vitejs/plugin-vue/3.1.2_vite@3.1.8+vue@3.2.40:
     resolution: {integrity: sha512-3zxKNlvA3oNaKDYX0NBclgxTQ1xaFdL7PzwF6zj9tGFziKwmBa3Q/6XcJQxudlT81WxDjEhHmevvIC4Orc1LhQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.1.7
+      vite: 3.1.8
       vue: 3.2.40
     dev: true
 
@@ -5991,7 +5991,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite-plugin-qiankun/1.0.15_pyo5n34mr7w32wfqve3utffvk4:
+  /vite-plugin-qiankun/1.0.15_o3sppntgta7qijzxyjjxfsiapy:
     resolution: {integrity: sha512-0QB0Wr8Eu/LGcuJAfuNXDb7BAFDszo3GCxq4bzgXdSFAlK425u1/UGMxaDEBVA1uPFrLsZPzig83Ufdfl6J45A==}
     peerDependencies:
       typescript: '>=4'
@@ -5999,7 +5999,7 @@ packages:
     dependencies:
       cheerio: 1.0.0-rc.12
       typescript: 4.8.4
-      vite: 3.1.7
+      vite: 3.1.8
     dev: true
 
   /vite-svg-loader/3.6.0:
@@ -6009,8 +6009,8 @@ packages:
       svgo: 2.8.0
     dev: true
 
-  /vite/3.1.7:
-    resolution: {integrity: sha512-5vCAmU4S8lyVdFCInu9M54f/g8qbOMakVw5xJ4pjoaDy5wgy9sLLZkGdSLN52dlsBqh0tBqxjaqqa8LgPqwRAA==}
+  /vite/3.1.8:
+    resolution: {integrity: sha512-m7jJe3nufUbuOfotkntGFupinL/fmuTNuQmiVE7cH2IZMuf4UbfbGYMUT3jVWgGYuRVLY9j8NnrRqgw5rr5QTg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -6069,7 +6069,7 @@ packages:
       tinybench: 2.3.0
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.1.7
+      vite: 3.1.8
     transitivePeerDependencies:
       - less
       - sass
