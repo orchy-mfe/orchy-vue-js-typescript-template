@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@orchy-mfe/models': ^0.0.1
+  '@orchy-mfe/models': ^0.2.0
   '@testing-library/vue': ^6.6.1
   '@typescript-eslint/eslint-plugin': ^5.43.0
   '@typescript-eslint/parser': ^5.43.0
@@ -32,7 +32,7 @@ dependencies:
   vue-router: 4.1.6_vue@3.2.45
 
 devDependencies:
-  '@orchy-mfe/models': 0.0.1
+  '@orchy-mfe/models': 0.2.0
   '@testing-library/vue': 6.6.1_tfvhctuaqmmqnirfl65c47tqwu
   '@typescript-eslint/eslint-plugin': 5.43.0_yy4vf4gcvxiubmg7fqa55dqe2i
   '@typescript-eslint/parser': 5.43.0_rmayb2veg2btbq6mbmnyivgasy
@@ -411,9 +411,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@orchy-mfe/models/0.0.1:
-    resolution: {integrity: sha512-tYL6IJQZaN2Q5f7B8CVbKSK/pymia8emdsDVT5iZ2BG+aGabGQgQFpQt5ihyOs6GoEw3tF5oOw8oj4+vlRarlQ==}
-    engines: {node: '>=v16.17.0'}
+  /@orchy-mfe/models/0.2.0:
+    resolution: {integrity: sha512-P7O1/xDySmhRjnBKgTOhJg/kh5jnk8I7feSAIDp56S0FHJuA9PVYQrNyjKMPMj9+wiKp5AyXGClA+nJugFSYEg==}
     dependencies:
       rxjs: 7.5.7
     dev: true
