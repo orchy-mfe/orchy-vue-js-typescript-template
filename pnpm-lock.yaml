@@ -16,7 +16,7 @@ specifiers:
   eslint-plugin-vue: ^9.8.0
   happy-dom: ^8.1.0
   rollup-plugin-visualizer: ^5.8.3
-  rxjs: ^7.6.0
+  rxjs: ^7.8.0
   typescript: ^4.9.4
   vite: ^4.0.1
   vite-plugin-css-injected-by-js: ^2.1.1
@@ -29,7 +29,7 @@ specifiers:
 
 dependencies:
   '@orchy-mfe/spa-adapter': 0.1.1
-  rxjs: 7.6.0
+  rxjs: 7.8.0
   vue: 3.2.45
   vue-router: 4.1.6_vue@3.2.45
 
@@ -600,7 +600,7 @@ packages:
   /@orchy-mfe/models/0.3.0:
     resolution: {integrity: sha512-SveY0mqzawNVBmHXV0cAA5Y3eBKoe4LcblkZzWIE/XV6UD9CDDBSdvdJ63Rsofgsry6rSEd6+uMVPZg5JpiEsA==}
     dependencies:
-      rxjs: 7.6.0
+      rxjs: 7.8.0
     dev: true
 
   /@orchy-mfe/spa-adapter/0.1.1:
@@ -5179,8 +5179,8 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
-  /rxjs/7.6.0:
-    resolution: {integrity: sha512-DDa7d8TFNUalGC9VqXvQ1euWNN7sc63TrUCuM9J998+ViviahMIjKSOU7rfcgFOF+FCD71BhDRv4hrFz+ImDLQ==}
+  /rxjs/7.8.0:
+    resolution: {integrity: sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg==}
     dependencies:
       tslib: 2.4.0
 
