@@ -14,7 +14,7 @@ specifiers:
   eslint-plugin-prettier: ^4.2.1
   eslint-plugin-vue: ^9.8.0
   happy-dom: ^8.1.1
-  rollup-plugin-visualizer: ^5.8.3
+  rollup-plugin-visualizer: ^5.9.0
   rxjs: ^7.8.0
   typescript: ^4.9.4
   vite: ^4.0.3
@@ -45,7 +45,7 @@ devDependencies:
   eslint-plugin-prettier: 4.2.1_bat6r7ilbbslsp5dhd45s4onze
   eslint-plugin-vue: 9.8.0_eslint@8.30.0
   happy-dom: 8.1.1
-  rollup-plugin-visualizer: 5.8.3
+  rollup-plugin-visualizer: 5.9.0
   typescript: 4.9.4
   vite: 4.0.3
   vite-plugin-css-injected-by-js: 2.2.0_vite@4.0.3
@@ -1912,8 +1912,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-visualizer/5.8.3:
-    resolution: {integrity: sha512-QGJk4Bqe4AOat5AjipOh8esZH1nck5X2KFpf4VytUdSUuuuSwvIQZjMGgjcxe/zXexltqaXp5Vx1V3LmnQH15Q==}
+  /rollup-plugin-visualizer/5.9.0:
+    resolution: {integrity: sha512-bbDOv47+Bw4C/cgs0czZqfm8L82xOZssk4ayZjG40y9zbXclNk7YikrZTDao6p7+HDiGxrN0b65SgZiVm9k1Cg==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
@@ -1923,6 +1923,7 @@ packages:
         optional: true
     dependencies:
       open: 8.4.0
+      picomatch: 2.3.1
       source-map: 0.7.4
       yargs: 17.5.1
     dev: true
