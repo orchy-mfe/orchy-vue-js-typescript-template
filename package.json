@@ -34,7 +34,7 @@
     "vite": "^4.0.4",
     "vite-plugin-css-injected-by-js": "^2.4.0",
     "vite-svg-loader": "^4.0.0",
-    "vitest": "^0.28.2",
+    "vitest": "^0.28.3",
     "vue-eslint-parser": "^9.1.0",
     "vue-tsc": "^1.0.24"
   }
