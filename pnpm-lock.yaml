@@ -18,7 +18,7 @@ specifiers:
   rxjs: ^7.8.0
   typescript: ^4.9.5
   vite: ^4.1.1
-  vite-plugin-css-injected-by-js: ^2.4.0
+  vite-plugin-css-injected-by-js: ^3.0.0
   vite-svg-loader: ^4.0.0
   vitest: ^0.28.4
   vue: ^3.2.47
@@ -48,7 +48,7 @@ devDependencies:
   rollup-plugin-visualizer: 5.9.0
   typescript: 4.9.5
   vite: 4.1.1
-  vite-plugin-css-injected-by-js: 2.4.0_vite@4.1.1
+  vite-plugin-css-injected-by-js: 3.0.0_vite@4.1.1
   vite-svg-loader: 4.0.0
   vitest: 0.28.4_happy-dom@8.2.6
   vue-eslint-parser: 9.1.0_eslint@8.33.0
@@ -2339,8 +2339,8 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-css-injected-by-js/2.4.0_vite@4.1.1:
-    resolution: {integrity: sha512-fQkJ5baPEasjjJLxHINLjXuPREO61VIDFUeUqleEBghOLfZZe/k/zrxG5b3kFZXu6JtdI11pnwtj3dh3CN9X4Q==}
+  /vite-plugin-css-injected-by-js/3.0.0_vite@4.1.1:
+    resolution: {integrity: sha512-gJxLYkD0rLxGnqBHkFm0bUlYq9VWRT0Fr6lHYD3uRzgW5IGMSdLbNDapXUV57SSlYpvZUrXSlne1Y89BWF1Mgw==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
