@@ -28,7 +28,7 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.9.0",
-    "happy-dom": "^8.7.0",
+    "happy-dom": "^8.7.1",
     "rollup-plugin-visualizer": "^5.9.0",
     "typescript": "^4.9.5",
     "vite": "^4.1.3",
