@@ -17,7 +17,7 @@ specifiers:
   rollup-plugin-visualizer: ^5.9.0
   rxjs: ^7.8.0
   typescript: ^5.0.2
-  vite: ^4.2.0
+  vite: ^4.2.1
   vite-plugin-css-injected-by-js: ^3.1.0
   vite-svg-loader: ^4.0.0
   vitest: ^0.29.3
@@ -37,7 +37,7 @@ devDependencies:
   '@testing-library/vue': 7.0.0_a2ihsjreowava2sm4iorpgwkom
   '@typescript-eslint/eslint-plugin': 5.55.0_qsnvknysi52qtaxqdyqyohkcku
   '@typescript-eslint/parser': 5.55.0_j4766f7ecgqbon3u7zlxn5zszu
-  '@vitejs/plugin-vue': 4.1.0_vite@4.2.0+vue@3.2.47
+  '@vitejs/plugin-vue': 4.1.0_vite@4.2.1+vue@3.2.47
   '@vue/eslint-config-prettier': 7.1.0_lw4sspcxaxows4dxje54mt3gt4
   '@vue/eslint-config-typescript': 11.0.2_cgv3ijhnmp44cwuqfct7aff4va
   eslint: 8.36.0
@@ -47,8 +47,8 @@ devDependencies:
   happy-dom: 8.9.0
   rollup-plugin-visualizer: 5.9.0
   typescript: 5.0.2
-  vite: 4.2.0
-  vite-plugin-css-injected-by-js: 3.1.0_vite@4.2.0
+  vite: 4.2.1
+  vite-plugin-css-injected-by-js: 3.1.0_vite@4.2.1
   vite-svg-loader: 4.0.0
   vitest: 0.29.3_happy-dom@8.9.0
   vue-eslint-parser: 9.1.0_eslint@8.36.0
@@ -587,14 +587,14 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-vue/4.1.0_vite@4.2.0+vue@3.2.47:
+  /@vitejs/plugin-vue/4.1.0_vite@4.2.1+vue@3.2.47:
     resolution: {integrity: sha512-++9JOAFdcXI3lyer9UKUV4rfoQ3T1RN8yDqoCLar86s0xQct5yblxAE+yWgRnU5/0FOlVCpTZpYSBV/bGWrSrQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.2.0
+      vite: 4.2.1
       vue: 3.2.47
     dev: true
 
@@ -2435,7 +2435,7 @@ packages:
       mlly: 1.1.0
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.2.0_@types+node@18.7.14
+      vite: 4.2.1_@types+node@18.7.14
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -2446,12 +2446,12 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-css-injected-by-js/3.1.0_vite@4.2.0:
+  /vite-plugin-css-injected-by-js/3.1.0_vite@4.2.1:
     resolution: {integrity: sha512-qogCmpocZfcbSAYZQjS88ieIY0PzLUm7RkLFWFgAxkXdz3N6roZbSTNTxeIOj5IxFbZWACUPuVBBoo6qCuXDcw==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
-      vite: 4.2.0
+      vite: 4.2.1
     dev: true
 
   /vite-svg-loader/4.0.0:
@@ -2461,8 +2461,8 @@ packages:
       svgo: 3.0.2
     dev: true
 
-  /vite/4.2.0:
-    resolution: {integrity: sha512-AbDTyzzwuKoRtMIRLGNxhLRuv1FpRgdIw+1y6AQG73Q5+vtecmvzKo/yk8X/vrHDpETRTx01ABijqUHIzBXi0g==}
+  /vite/4.2.1:
+    resolution: {integrity: sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -2494,8 +2494,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.2.0_@types+node@18.7.14:
-    resolution: {integrity: sha512-AbDTyzzwuKoRtMIRLGNxhLRuv1FpRgdIw+1y6AQG73Q5+vtecmvzKo/yk8X/vrHDpETRTx01ABijqUHIzBXi0g==}
+  /vite/4.2.1_@types+node@18.7.14:
+    resolution: {integrity: sha512-7MKhqdy0ISo4wnvwtqZkjke6XN4taqQ2TBaTccLIpOKv7Vp2h4Y+NpmWCnGDeSvvn45KxvWgGyb0MkHvY1vgbg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -2572,7 +2572,7 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.1
       tinyspy: 1.0.2
-      vite: 4.2.0_@types+node@18.7.14
+      vite: 4.2.1_@types+node@18.7.14
       vite-node: 0.29.3_@types+node@18.7.14
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
