@@ -65,8 +65,8 @@ devDependencies:
     specifier: ^4.4.9
     version: 4.4.9(@types/node@18.7.14)
   vite-plugin-css-injected-by-js:
-    specifier: ^3.2.1
-    version: 3.2.1(vite@4.4.9)
+    specifier: ^3.3.0
+    version: 3.3.0(vite@4.4.9)
   vite-svg-loader:
     specifier: ^4.0.0
     version: 4.0.0
@@ -2828,8 +2828,8 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-css-injected-by-js@3.2.1(vite@4.4.9):
-    resolution: {integrity: sha512-8UQWy7tcmgwkaUKYfbj/8GOeAD0RPG2tdetAGg7WikWC8IEtNrovs8RRuLjFqdRqORT1XxchBB5tPl6xO/H95g==}
+  /vite-plugin-css-injected-by-js@3.3.0(vite@4.4.9):
+    resolution: {integrity: sha512-xG+jyHNCmUqi/TXp6q88wTJGeAOrNLSyUUTp4qEQ9QZLGcHWQQsCsSSKa59rPMQr8sOzfzmWDd8enGqfH/dBew==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
