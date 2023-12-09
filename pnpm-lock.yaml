@@ -56,8 +56,8 @@ devDependencies:
     specifier: ^12.10.3
     version: 12.10.3
   rollup-plugin-visualizer:
-    specifier: ^5.10.0
-    version: 5.10.0
+    specifier: ^5.11.0
+    version: 5.11.0
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
@@ -2764,8 +2764,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-visualizer@5.10.0:
-    resolution: {integrity: sha512-N4AkNL0qFvipegbDJ0kupS+8eKGjL0q+lYwV46NflLX/B8Rh73wz3kCIdg50bR6XVhNcaMA4Eb519xtm90Ckfg==}
+  /rollup-plugin-visualizer@5.11.0:
+    resolution: {integrity: sha512-exM0Ms2SN3AgTzMeW7y46neZQcyLY7eKwWAop1ZoRTCZwyrIRdMMJ6JjToAJbML77X/9N8ZEpmXG4Z/Clb9k8g==}
     engines: {node: '>=14'}
     hasBin: true
     peerDependencies:
