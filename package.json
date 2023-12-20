@@ -32,7 +32,7 @@
     "rollup-plugin-visualizer": "^5.11.0",
     "typescript": "^5.3.3",
     "vite": "^5.0.10",
-    "vite-plugin-css-injected-by-js": "^3.3.0",
+    "vite-plugin-css-injected-by-js": "^3.3.1",
     "vite-svg-loader": "^5.1.0",
     "vitest": "^1.1.0",
     "vue-eslint-parser": "^9.3.2",
