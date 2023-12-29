@@ -24,7 +24,7 @@ devDependencies:
     version: 0.3.0
   '@testing-library/vue':
     specifier: ^8.0.1
-    version: 8.0.1(@vue/compiler-sfc@3.3.13)(vue@3.4.0)
+    version: 8.0.1(@vue/compiler-sfc@3.4.0)(vue@3.4.0)
   '@typescript-eslint/eslint-plugin':
     specifier: ^6.16.0
     version: 6.16.0(@typescript-eslint/parser@6.16.0)(eslint@8.56.0)(typescript@5.3.3)
@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^5.0.0
     version: 5.0.0(vite@5.0.10)(vue@3.4.0)
   '@vue/eslint-config-prettier':
-    specifier: ^8.0.0
-    version: 8.0.0(eslint@8.56.0)(prettier@3.0.0)
+    specifier: ^9.0.0
+    version: 9.0.0(eslint@8.56.0)(prettier@3.0.0)
   '@vue/eslint-config-typescript':
     specifier: ^12.0.0
     version: 12.0.0(eslint-plugin-vue@9.19.2)(eslint@8.56.0)(typescript@5.3.3)
@@ -593,7 +593,7 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/vue@8.0.1(@vue/compiler-sfc@3.3.13)(vue@3.4.0):
+  /@testing-library/vue@8.0.1(@vue/compiler-sfc@3.4.0)(vue@3.4.0):
     resolution: {integrity: sha512-l51ZEpjTQ6glq3wM+asQ1GbKJMGcxwgHEygETx0aCRN4TjFEGvMZy4YdWKs/y7bu4bmLrxcxhbEPP7iPSW/2OQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -602,7 +602,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.23.4
       '@testing-library/dom': 9.3.3
-      '@vue/compiler-sfc': 3.3.13
+      '@vue/compiler-sfc': 3.4.0
       '@vue/test-utils': 2.4.2(vue@3.4.0)
       vue: 3.4.0(typescript@5.3.3)
     transitivePeerDependencies:
@@ -865,21 +865,6 @@ packages:
       '@vue/compiler-core': 3.4.0
       '@vue/shared': 3.4.0
 
-  /@vue/compiler-sfc@3.3.13:
-    resolution: {integrity: sha512-DQVmHEy/EKIgggvnGRLx21hSqnr1smUS9Aq8tfxiiot8UR0/pXKHN9k78/qQ7etyQTFj5em5nruODON7dBeumw==}
-    dependencies:
-      '@babel/parser': 7.23.5
-      '@vue/compiler-core': 3.3.13
-      '@vue/compiler-dom': 3.3.13
-      '@vue/compiler-ssr': 3.3.13
-      '@vue/reactivity-transform': 3.3.13
-      '@vue/shared': 3.3.13
-      estree-walker: 2.0.2
-      magic-string: 0.30.5
-      postcss: 8.4.32
-      source-map-js: 1.0.2
-    dev: true
-
   /@vue/compiler-sfc@3.4.0:
     resolution: {integrity: sha512-PWE0mE2yW7bJS7PmaCrVDEG6KPaDJo0pb4AKnCxJ5lRRDO4IwL/fswBGhCpov+v/c+N/e+hQHpXNwvqU9BtUXg==}
     dependencies:
@@ -893,13 +878,6 @@ packages:
       postcss: 8.4.32
       source-map-js: 1.0.2
 
-  /@vue/compiler-ssr@3.3.13:
-    resolution: {integrity: sha512-d/P3bCeUGmkJNS1QUZSAvoCIW4fkOKK3l2deE7zrp0ypJEy+En2AcypIkqvcFQOcw3F0zt2VfMvNsA9JmExTaw==}
-    dependencies:
-      '@vue/compiler-dom': 3.3.13
-      '@vue/shared': 3.3.13
-    dev: true
-
   /@vue/compiler-ssr@3.4.0:
     resolution: {integrity: sha512-+oXKy105g9DIYQKDi3Gwung0xqQX5gJHr0GR+Vf7yK/WkNDM6q61ummcKmKAB85EIst8y3vj2PA9z9YU5Oc4DQ==}
     dependencies:
@@ -910,15 +888,15 @@ packages:
     resolution: {integrity: sha512-o9KfBeaBmCKl10usN4crU53fYtC1r7jJwdGKjPT24t348rHxgfpZ0xL3Xm/gLUYnc0oTp8LAmrxOeLyu6tbk2Q==}
     dev: false
 
-  /@vue/eslint-config-prettier@8.0.0(eslint@8.56.0)(prettier@3.0.0):
-    resolution: {integrity: sha512-55dPqtC4PM/yBjhAr+yEw6+7KzzdkBuLmnhBrDfp4I48+wy+Giqqj9yUr5T2uD/BkBROjjmqnLZmXRdOx/VtQg==}
+  /@vue/eslint-config-prettier@9.0.0(eslint@8.56.0)(prettier@3.0.0):
+    resolution: {integrity: sha512-z1ZIAAUS9pKzo/ANEfd2sO+v2IUalz7cM/cTLOZ7vRFOPk5/xuRKQteOu1DErFLAh/lYGXMVZ0IfYKlyInuDVg==}
     peerDependencies:
       eslint: '>= 8.0.0'
       prettier: '>= 3.0.0'
     dependencies:
       eslint: 8.56.0
-      eslint-config-prettier: 8.10.0(eslint@8.56.0)
-      eslint-plugin-prettier: 5.1.2(eslint-config-prettier@8.10.0)(eslint@8.56.0)(prettier@3.0.0)
+      eslint-config-prettier: 9.1.0(eslint@8.56.0)
+      eslint-plugin-prettier: 5.1.2(eslint-config-prettier@9.1.0)(eslint@8.56.0)(prettier@3.0.0)
       prettier: 3.0.0
     transitivePeerDependencies:
       - '@types/eslint'
@@ -963,16 +941,6 @@ packages:
       path-browserify: 1.0.1
       typescript: 5.3.3
       vue-template-compiler: 2.7.14
-    dev: true
-
-  /@vue/reactivity-transform@3.3.13:
-    resolution: {integrity: sha512-oWnydGH0bBauhXvh5KXUy61xr9gKaMbtsMHk40IK9M4gMuKPJ342tKFarY0eQ6jef8906m35q37wwA8DMZOm5Q==}
-    dependencies:
-      '@babel/parser': 7.23.5
-      '@vue/compiler-core': 3.3.13
-      '@vue/shared': 3.3.13
-      estree-walker: 2.0.2
-      magic-string: 0.30.5
     dev: true
 
   /@vue/reactivity@3.4.0:
@@ -1569,15 +1537,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-prettier@8.10.0(eslint@8.56.0):
-    resolution: {integrity: sha512-SM8AMJdeQqRYT9O9zguiruQZaN7+z+E4eAP9oiLNGKMtomwaB1E9dcgUD6ZAn/eQAb52USbvezbiljfZUhbJcg==}
-    hasBin: true
-    peerDependencies:
-      eslint: '>=7.0.0'
-    dependencies:
-      eslint: 8.56.0
-    dev: true
-
   /eslint-config-prettier@9.1.0(eslint@8.56.0):
     resolution: {integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==}
     hasBin: true
@@ -1585,27 +1544,6 @@ packages:
       eslint: '>=7.0.0'
     dependencies:
       eslint: 8.56.0
-    dev: true
-
-  /eslint-plugin-prettier@5.1.2(eslint-config-prettier@8.10.0)(eslint@8.56.0)(prettier@3.0.0):
-    resolution: {integrity: sha512-dhlpWc9vOwohcWmClFcA+HjlvUpuyynYs0Rf+L/P6/0iQE6vlHW9l5bkfzN62/Stm9fbq8ku46qzde76T1xlSg==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    peerDependencies:
-      '@types/eslint': '>=8.0.0'
-      eslint: '>=8.0.0'
-      eslint-config-prettier: '*'
-      prettier: '>=3.0.0'
-    peerDependenciesMeta:
-      '@types/eslint':
-        optional: true
-      eslint-config-prettier:
-        optional: true
-    dependencies:
-      eslint: 8.56.0
-      eslint-config-prettier: 8.10.0(eslint@8.56.0)
-      prettier: 3.0.0
-      prettier-linter-helpers: 1.0.0
-      synckit: 0.8.6
     dev: true
 
   /eslint-plugin-prettier@5.1.2(eslint-config-prettier@9.1.0)(eslint@8.56.0)(prettier@3.0.0):
