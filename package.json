@@ -13,7 +13,7 @@
   "dependencies": {
     "@orchy-mfe/spa-adapter": "^0.1.1",
     "rxjs": "^7.8.1",
-    "vue": "^3.4.4",
+    "vue": "^3.4.5",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
