@@ -31,7 +31,7 @@
     "happy-dom": "^14.3.6",
     "rollup-plugin-visualizer": "^5.12.0",
     "typescript": "^5.4.3",
-    "vite": "^5.2.5",
+    "vite": "^5.2.6",
     "vite-plugin-css-injected-by-js": "^3.5.0",
     "vite-svg-loader": "^5.1.0",
     "vitest": "^1.4.0",
