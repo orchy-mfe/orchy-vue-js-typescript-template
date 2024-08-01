@@ -15,8 +15,8 @@ dependencies:
     specifier: ^3.4.35
     version: 3.4.35(typescript@5.5.4)
   vue-router:
-    specifier: ^4.4.1
-    version: 4.4.1(vue@3.4.35)
+    specifier: ^4.4.2
+    version: 4.4.2(vue@3.4.35)
 
 devDependencies:
   '@orchy-mfe/models':
@@ -3175,8 +3175,8 @@ packages:
       - supports-color
     dev: true
 
-  /vue-router@4.4.1(vue@3.4.35):
-    resolution: {integrity: sha512-njTLt/6gYGgIhv+U8nc5J6JpJpntFgy4fptRJ9Dp2qWQRo/PekB5DbKRYRPt0kM6feXysPKl7A5BjOmOJL5Ttw==}
+  /vue-router@4.4.2(vue@3.4.35):
+    resolution: {integrity: sha512-1qNybkn2L7QsLzaXs8nvlQmRKp8XF8DCxZys/Jr1JpQcHsKUxTKzTxCVA1G7NfBfwRIBgCJPoujOG5lHCCNUxw==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
