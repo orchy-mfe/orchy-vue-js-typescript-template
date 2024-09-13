@@ -33,7 +33,7 @@ devDependencies:
     version: 8.5.0(eslint@8.57.0)(typescript@5.6.2)
   '@vitejs/plugin-vue':
     specifier: ^5.1.3
-    version: 5.1.3(vite@5.4.4)(vue@3.5.4)
+    version: 5.1.3(vite@5.4.5)(vue@3.5.4)
   '@vue/eslint-config-prettier':
     specifier: ^9.0.0
     version: 9.0.0(eslint@8.57.0)(prettier@3.0.0)
@@ -62,11 +62,11 @@ devDependencies:
     specifier: ^5.6.2
     version: 5.6.2
   vite:
-    specifier: ^5.4.4
-    version: 5.4.4
+    specifier: ^5.4.5
+    version: 5.4.5
   vite-plugin-css-injected-by-js:
     specifier: ^3.5.1
-    version: 3.5.1(vite@5.4.4)
+    version: 3.5.1(vite@5.4.5)
   vite-svg-loader:
     specifier: ^5.1.0
     version: 5.1.0(vue@3.5.4)
@@ -909,14 +909,14 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vitejs/plugin-vue@5.1.3(vite@5.4.4)(vue@3.5.4):
+  /@vitejs/plugin-vue@5.1.3(vite@5.4.5)(vue@3.5.4):
     resolution: {integrity: sha512-3xbWsKEKXYlmX82aOHufFQVnkbMC/v8fLpWwh6hWOUrK5fbbtBh9Q/WWse27BFgSy2/e2c0fz5Scgya9h2GLhw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.4.4
+      vite: 5.4.5
       vue: 3.5.4(typescript@5.6.2)
     dev: true
 
@@ -929,7 +929,7 @@ packages:
       tinyrainbow: 1.2.0
     dev: true
 
-  /@vitest/mocker@2.1.0(@vitest/spy@2.1.0)(vite@5.4.4):
+  /@vitest/mocker@2.1.0(@vitest/spy@2.1.0)(vite@5.4.5):
     resolution: {integrity: sha512-ZxENovUqhzl+QiOFpagiHUNUuZ1qPd5yYTCYHomGIZOFArzn4mgX2oxZmiAItJWAaXHG6bbpb/DpSPhlk5DgtA==}
     peerDependencies:
       '@vitest/spy': 2.1.0
@@ -944,7 +944,7 @@ packages:
       '@vitest/spy': 2.1.0
       estree-walker: 3.0.3
       magic-string: 0.30.11
-      vite: 5.4.4
+      vite: 5.4.5
     dev: true
 
   /@vitest/pretty-format@2.1.0:
@@ -2997,7 +2997,7 @@ packages:
       cac: 6.7.14
       debug: 4.3.7
       pathe: 1.1.2
-      vite: 5.4.4
+      vite: 5.4.5
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -3010,12 +3010,12 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-css-injected-by-js@3.5.1(vite@5.4.4):
+  /vite-plugin-css-injected-by-js@3.5.1(vite@5.4.5):
     resolution: {integrity: sha512-9ioqwDuEBxW55gNoWFEDhfLTrVKXEEZgl5adhWmmqa88EQGKfTmexy4v1Rh0pAS6RhKQs2bUYQArprB32JpUZQ==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
-      vite: 5.4.4
+      vite: 5.4.5
     dev: true
 
   /vite-svg-loader@5.1.0(vue@3.5.4):
@@ -3027,8 +3027,8 @@ packages:
       vue: 3.5.4(typescript@5.6.2)
     dev: true
 
-  /vite@5.4.4:
-    resolution: {integrity: sha512-RHFCkULitycHVTtelJ6jQLd+KSAAzOgEYorV32R2q++M6COBjKJR6BxqClwp5sf0XaBDjVMuJ9wnNfyAJwjMkA==}
+  /vite@5.4.5:
+    resolution: {integrity: sha512-pXqR0qtb2bTwLkev4SE3r4abCNioP3GkjvIDLlzziPpXtHgiJIjuKl+1GN6ESOT3wMjG3JTeARopj2SwYaHTOA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -3091,7 +3091,7 @@ packages:
         optional: true
     dependencies:
       '@vitest/expect': 2.1.0
-      '@vitest/mocker': 2.1.0(@vitest/spy@2.1.0)(vite@5.4.4)
+      '@vitest/mocker': 2.1.0(@vitest/spy@2.1.0)(vite@5.4.5)
       '@vitest/pretty-format': 2.1.0
       '@vitest/runner': 2.1.0
       '@vitest/snapshot': 2.1.0
@@ -3107,7 +3107,7 @@ packages:
       tinyexec: 0.3.0
       tinypool: 1.0.0
       tinyrainbow: 1.2.0
-      vite: 5.4.4
+      vite: 5.4.5
       vite-node: 2.1.0
       why-is-node-running: 2.3.0
     transitivePeerDependencies:
