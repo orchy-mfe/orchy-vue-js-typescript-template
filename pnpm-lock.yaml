@@ -39,7 +39,7 @@ devDependencies:
     version: 9.0.0(eslint@8.57.1)(prettier@3.0.0)
   '@vue/eslint-config-typescript':
     specifier: ^13.0.0
-    version: 13.0.0(eslint-plugin-vue@9.29.0)(eslint@8.57.1)(typescript@5.6.3)
+    version: 13.0.0(eslint-plugin-vue@9.29.1)(eslint@8.57.1)(typescript@5.6.3)
   eslint:
     specifier: ^8.57.1
     version: 8.57.1
@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^5.2.1
     version: 5.2.1(eslint-config-prettier@9.1.0)(eslint@8.57.1)(prettier@3.0.0)
   eslint-plugin-vue:
-    specifier: ^9.29.0
-    version: 9.29.0(eslint@8.57.1)
+    specifier: ^9.29.1
+    version: 9.29.1(eslint@8.57.1)
   happy-dom:
     specifier: ^15.7.4
     version: 15.7.4
@@ -1068,7 +1068,7 @@ packages:
       - '@types/eslint'
     dev: true
 
-  /@vue/eslint-config-typescript@13.0.0(eslint-plugin-vue@9.29.0)(eslint@8.57.1)(typescript@5.6.3):
+  /@vue/eslint-config-typescript@13.0.0(eslint-plugin-vue@9.29.1)(eslint@8.57.1)(typescript@5.6.3):
     resolution: {integrity: sha512-MHh9SncG/sfqjVqjcuFLOLD6Ed4dRAis4HNt0dXASeAuLqIAx4YMB1/m2o4pUKK1vCt8fUvYG8KKX2Ot3BVZTg==}
     engines: {node: ^18.18.0 || >=20.0.0}
     peerDependencies:
@@ -1082,7 +1082,7 @@ packages:
       '@typescript-eslint/eslint-plugin': 7.18.0(@typescript-eslint/parser@7.18.0)(eslint@8.57.1)(typescript@5.6.3)
       '@typescript-eslint/parser': 7.18.0(eslint@8.57.1)(typescript@5.6.3)
       eslint: 8.57.1
-      eslint-plugin-vue: 9.29.0(eslint@8.57.1)
+      eslint-plugin-vue: 9.29.1(eslint@8.57.1)
       typescript: 5.6.3
       vue-eslint-parser: 9.4.3(eslint@8.57.1)
     transitivePeerDependencies:
@@ -1698,8 +1698,8 @@ packages:
       synckit: 0.9.1
     dev: true
 
-  /eslint-plugin-vue@9.29.0(eslint@8.57.1):
-    resolution: {integrity: sha512-hamyjrBhNH6Li6R1h1VF9KHfshJlKgKEg3ARbGTn72CMNDSMhWbgC7NdkRDEh25AFW+4SDATzyNM+3gWuZii8g==}
+  /eslint-plugin-vue@9.29.1(eslint@8.57.1):
+    resolution: {integrity: sha512-MH/MbVae4HV/tM8gKAVWMPJbYgW04CK7SuzYRrlNERpxbO0P3+Zdsa2oAcFBW6xNu7W6lIkGOsFAMCRTYmrlWQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
