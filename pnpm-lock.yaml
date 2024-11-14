@@ -53,8 +53,8 @@ devDependencies:
     specifier: ^9.31.0
     version: 9.31.0(eslint@8.57.1)
   happy-dom:
-    specifier: ^15.11.4
-    version: 15.11.4
+    specifier: ^15.11.6
+    version: 15.11.6
   rollup-plugin-visualizer:
     specifier: ^5.12.0
     version: 5.12.0
@@ -72,7 +72,7 @@ devDependencies:
     version: 5.1.0(vue@3.5.12)
   vitest:
     specifier: ^2.1.5
-    version: 2.1.5(happy-dom@15.11.4)
+    version: 2.1.5(happy-dom@15.11.6)
   vue-eslint-parser:
     specifier: ^9.4.3
     version: 9.4.3(eslint@8.57.1)
@@ -1988,8 +1988,8 @@ packages:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
     dev: true
 
-  /happy-dom@15.11.4:
-    resolution: {integrity: sha512-AU6tzh3ADd28vSmXahgLsGyGGihXPGeKH0owDn9lhHolB6vIwEhag//T+TBzDoAcHhmVEwlxwSgtW1KZep+1MA==}
+  /happy-dom@15.11.6:
+    resolution: {integrity: sha512-elX7iUTu+5+3b2+NGQc0L3eWyq9jKhuJJ4GpOMxxT/c2pg9O3L5H3ty2VECX0XXZgRmmRqXyOK8brA2hDI6LsQ==}
     engines: {node: '>=18.0.0'}
     dependencies:
       entities: 4.5.0
@@ -3035,7 +3035,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@2.1.5(happy-dom@15.11.4):
+  /vitest@2.1.5(happy-dom@15.11.6):
     resolution: {integrity: sha512-P4ljsdpuzRTPI/kbND2sDZ4VmieerR2c9szEZpjc+98Z9ebvnXmM5+0tHEKqYZumXqlvnmfWsjeFOjXVriDG7A==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -3070,7 +3070,7 @@ packages:
       chai: 5.1.2
       debug: 4.3.7
       expect-type: 1.1.0
-      happy-dom: 15.11.4
+      happy-dom: 15.11.6
       magic-string: 0.30.12
       pathe: 1.1.2
       std-env: 3.8.0
