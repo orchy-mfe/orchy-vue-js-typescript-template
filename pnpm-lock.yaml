@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^5.2.1
     version: 5.2.1(vite@6.0.3)(vue@3.5.13)
   '@vue/eslint-config-prettier':
-    specifier: ^9.0.0
-    version: 9.0.0(eslint@8.57.1)(prettier@3.0.0)
+    specifier: ^10.1.0
+    version: 10.1.0(eslint@8.57.1)(prettier@3.0.0)
   '@vue/eslint-config-typescript':
     specifier: ^13.0.0
     version: 13.0.0(eslint-plugin-vue@9.32.0)(eslint@8.57.1)(typescript@5.6.3)
@@ -1290,10 +1290,10 @@ packages:
     resolution: {integrity: sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==}
     dev: false
 
-  /@vue/eslint-config-prettier@9.0.0(eslint@8.57.1)(prettier@3.0.0):
-    resolution: {integrity: sha512-z1ZIAAUS9pKzo/ANEfd2sO+v2IUalz7cM/cTLOZ7vRFOPk5/xuRKQteOu1DErFLAh/lYGXMVZ0IfYKlyInuDVg==}
+  /@vue/eslint-config-prettier@10.1.0(eslint@8.57.1)(prettier@3.0.0):
+    resolution: {integrity: sha512-J6wV91y2pXc0Phha01k0WOHBTPsoSTf4xlmMjoKaeSxBpAdsgTppGF5RZRdOHM7OA74zAXD+VLANrtYXpiPKkQ==}
     peerDependencies:
-      eslint: '>= 8.0.0'
+      eslint: '>= 8.21.0'
       prettier: '>= 3.0.0'
     dependencies:
       eslint: 8.57.1
