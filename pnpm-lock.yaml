@@ -33,7 +33,7 @@ devDependencies:
     version: 8.18.1(eslint@8.57.1)(typescript@5.6.3)
   '@vitejs/plugin-vue':
     specifier: ^5.2.1
-    version: 5.2.1(vite@6.0.3)(vue@3.5.13)
+    version: 5.2.1(vite@6.0.4)(vue@3.5.13)
   '@vue/eslint-config-prettier':
     specifier: ^9.0.0
     version: 9.0.0(eslint@8.57.1)(prettier@3.0.0)
@@ -62,11 +62,11 @@ devDependencies:
     specifier: ^5.6.3
     version: 5.6.3
   vite:
-    specifier: ^6.0.3
-    version: 6.0.3
+    specifier: ^6.0.4
+    version: 6.0.4
   vite-plugin-css-injected-by-js:
     specifier: ^3.5.2
-    version: 3.5.2(vite@6.0.3)
+    version: 3.5.2(vite@6.0.4)
   vite-svg-loader:
     specifier: ^5.1.0
     version: 5.1.0(vue@3.5.13)
@@ -1123,14 +1123,14 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vitejs/plugin-vue@5.2.1(vite@6.0.3)(vue@3.5.13):
+  /@vitejs/plugin-vue@5.2.1(vite@6.0.4)(vue@3.5.13):
     resolution: {integrity: sha512-cxh314tzaWwOLqVes2gnnCtvBDcM1UMdn+iFR+UjAn411dPT3tOmqrJjbMd7koZpMAmBM/GqeV4n9ge7JSiJJQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0 || ^6.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 6.0.3
+      vite: 6.0.4
       vue: 3.5.13(typescript@5.6.3)
     dev: true
 
@@ -3256,12 +3256,12 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-css-injected-by-js@3.5.2(vite@6.0.3):
+  /vite-plugin-css-injected-by-js@3.5.2(vite@6.0.4):
     resolution: {integrity: sha512-2MpU/Y+SCZyWUB6ua3HbJCrgnF0KACAsmzOQt1UvRVJCGF6S8xdA3ZUhWcWdM9ivG4I5az8PnQmwwrkC2CAQrQ==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
-      vite: 6.0.3
+      vite: 6.0.4
     dev: true
 
   /vite-svg-loader@5.1.0(vue@3.5.13):
@@ -3311,8 +3311,8 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vite@6.0.3:
-    resolution: {integrity: sha512-Cmuo5P0ENTN6HxLSo6IHsjCLn/81Vgrp81oaiFFMRa8gGDj5xEjIcEpf2ZymZtZR8oU0P2JX5WuUp/rlXcHkAw==}
+  /vite@6.0.4:
+    resolution: {integrity: sha512-zwlH6ar+6o6b4Wp+ydhtIKLrGM/LoqZzcdVmkGAFun0KHTzIzjh+h0kungEx7KJg/PYnC80I4TII9WkjciSR6Q==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
