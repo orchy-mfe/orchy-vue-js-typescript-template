@@ -30,7 +30,7 @@
     "eslint-plugin-vue": "^9.32.0",
     "happy-dom": "^16.5.2",
     "rollup-plugin-visualizer": "^5.13.1",
-    "typescript": "^5.7.2",
+    "typescript": "^5.7.3",
     "vite": "^6.0.7",
     "vite-plugin-css-injected-by-js": "^3.5.2",
     "vite-svg-loader": "^5.1.0",
