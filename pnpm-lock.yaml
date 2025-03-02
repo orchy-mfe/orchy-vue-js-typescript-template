@@ -77,8 +77,8 @@ devDependencies:
     specifier: ^9.4.3
     version: 9.4.3(eslint@8.57.1)
   vue-tsc:
-    specifier: ^2.2.0
-    version: 2.2.0(typescript@5.7.3)
+    specifier: ^2.2.8
+    version: 2.2.8(typescript@5.7.3)
 
 packages:
 
@@ -1095,8 +1095,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vue/language-core@2.2.0(typescript@5.7.3):
-    resolution: {integrity: sha512-O1ZZFaaBGkKbsRfnVH1ifOK1/1BUkyK+3SQsfnh6PmMmD4qJcTU8godCeA96jjDRTL6zgnK7YzCHfaUlH2r0Mw==}
+  /@vue/language-core@2.2.8(typescript@5.7.3):
+    resolution: {integrity: sha512-rrzB0wPGBvcwaSNRriVWdNAbHQWSf0NlGqgKHK5mEkXpefjUlVRP62u03KvwZpvKVjRnBIQ/Lwre+Mx9N6juUQ==}
     peerDependencies:
       typescript: '*'
     peerDependenciesMeta:
@@ -1107,7 +1107,7 @@ packages:
       '@vue/compiler-dom': 3.5.13
       '@vue/compiler-vue2': 2.7.16
       '@vue/shared': 3.5.13
-      alien-signals: 0.4.9
+      alien-signals: 1.0.4
       minimatch: 9.0.4
       muggle-string: 0.4.1
       path-browserify: 1.0.1
@@ -1187,8 +1187,8 @@ packages:
       uri-js: 4.4.1
     dev: true
 
-  /alien-signals@0.4.9:
-    resolution: {integrity: sha512-piRGlMgQ65uRiY06mGU7I432AwPwAGf64TK1RXtM1Px4pPfLMTGI9TmsHTfioW1GukZRsNzkVQ/uHjhhd231Ow==}
+  /alien-signals@1.0.4:
+    resolution: {integrity: sha512-DJqqQD3XcsaQcQ1s+iE2jDUZmmQpXwHiR6fCAim/w87luaW+vmLY8fMlrdkmRwzaFXhkxf3rqPCR59tKVv1MDw==}
     dev: true
 
   /ansi-regex@5.0.1:
@@ -3237,14 +3237,14 @@ packages:
       vue: 3.5.13(typescript@5.7.3)
     dev: false
 
-  /vue-tsc@2.2.0(typescript@5.7.3):
-    resolution: {integrity: sha512-gtmM1sUuJ8aSb0KoAFmK9yMxb8TxjewmxqTJ1aKphD5Cbu0rULFY6+UQT51zW7SpUcenfPUuflKyVwyx9Qdnxg==}
+  /vue-tsc@2.2.8(typescript@5.7.3):
+    resolution: {integrity: sha512-jBYKBNFADTN+L+MdesNX/TB3XuDSyaWynKMDgR+yCSln0GQ9Tfb7JS2lr46s2LiFUT1WsmfWsSvIElyxzOPqcQ==}
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.0'
     dependencies:
       '@volar/typescript': 2.4.11
-      '@vue/language-core': 2.2.0(typescript@5.7.3)
+      '@vue/language-core': 2.2.8(typescript@5.7.3)
       typescript: 5.7.3
     dev: true
 
